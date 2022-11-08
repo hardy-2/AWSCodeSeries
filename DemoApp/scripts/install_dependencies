@@ -5,7 +5,7 @@
 
 set -e
 
-CATALINA_HOME='/var/lib/tomcat'
+CATALINA_HOME='/usr/share/tomcat'
 
 
 # Tar file name
