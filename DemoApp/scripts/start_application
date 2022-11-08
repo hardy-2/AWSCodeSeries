@@ -5,7 +5,7 @@
 
 set -e
 
-CATALINA_HOME='/var/lib/tomcats'
+CATALINA_HOME='/usr/share/tomcat'
 DEPLOY_TO_ROOT='true'
 #CONTEXT_PATH='##CONTEXT_PATH##'
 SERVER_HTTP_PORT='8080'

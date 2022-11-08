@@ -5,7 +5,7 @@
 
 set -e
 
-CATALINA_HOME=/var/lib/tomcat
+CATALINA_HOME=/usr/share/tomcat
 
 # Tar file name
 #TOMCAT7_CORE_TAR_FILENAME='apache-tomcat-7.0.69.tar.gz'
