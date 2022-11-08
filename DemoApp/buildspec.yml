@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  build:
+    commands:
+      - cd DemoApp
+      - mvn install
+artifacts:
+  files:
+    - DemoApp/target/javawebdemo.war
+    - DemoApp/appspec.yml
+    - DemoApp/scripts/**/*
+  discard-paths: no
+
