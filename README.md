@@ -36,3 +36,13 @@ sudo systemctl status tomcat
 6. 배포 생성, S3에서 빌드된 파일의 S3 URI 복사 붙여넣기
 7. 배포
 ## AWS CodePipeline
+1. Source
+2. Build
+3. Deploy
+
+### TroubleShooting
+CodeDeploy agent was not able to receive the lifecycle event. Check the CodeDeploy agent logs on your host and make sure the agent is running and can connect to the CodeDeploy server.
+
+```
+sudo service codedeploy-agent restart
+```
