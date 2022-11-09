@@ -3,7 +3,7 @@
 1. HTTPS Git credentials (계정에 권한 할당)
 2. CodeCommit에서 repository 생성
 3. git clone https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/레포지토리명
-4. DemoApp 업로드: git remote -v / git add . / git commit -m '메시지' / git push origin master
+4. DemoApp 업로드
 5. EC2 역할생성: AmazonS3FullAccess, AWSCodeDeployFullAccess, AmazonEC2RoleforAWSCodeDeploy, AmazonSSMManagedInstanceCore
 6. CodeDeploy 역할 생성: AmazonS3FullAccess, AWSCodeDeployRole
 ## AWS CodeBuild 
