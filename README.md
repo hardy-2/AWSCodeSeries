@@ -41,9 +41,7 @@ sudo systemctl status tomcat
 3. Deploy
 
 ### TroubleShooting
-<span style="color:red">
 CodeDeploy agent was not able to receive the lifecycle event. Check the CodeDeploy agent logs on your host and make sure the agent is running and can connect to the CodeDeploy server.
-</span>
 
 ```
 sudo service codedeploy-agent restart
@@ -66,4 +64,3 @@ sudo yum install -y tomcat-webapps tomcat-docs-webapp tomcat-admin-webapps
 cd /var/lib/tomcat
 sudo ln -s /usr/share/tomcat/conf conf
 ```
-<span style="color:yellow">노란 글씨입니다.</span>
