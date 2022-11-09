@@ -66,3 +66,4 @@ sudo yum install -y tomcat-webapps tomcat-docs-webapp tomcat-admin-webapps
 cd /var/lib/tomcat
 sudo ln -s /usr/share/tomcat/conf conf
 ```
+<span style="color:yellow">노란 글씨입니다.</span>
