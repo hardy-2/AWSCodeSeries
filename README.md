@@ -46,7 +46,7 @@ CodeDeploy agent was not able to receive the lifecycle event. Check the CodeDepl
 ```
 sudo service codedeploy-agent restart
 ```
-
+---
 [stderr]cp: cannot create regular file ‘/var/lib/tomcats/webapps/ROOT.war’: No such file or directory
 ```
 cd /var/lib/   #-> /var/lib/tomcat/webapps/ 없음
@@ -58,6 +58,7 @@ sudo yum remove -y tomcat-webapps tomcat-docs-webapp tomcat-admin-webapps
 #재설치
 sudo yum install -y tomcat-webapps tomcat-docs-webapp tomcat-admin-webapps
 ```
+---
 [stderr]cp: cannot stat ‘/var/lib/tomcat/conf/server.xml’: No such file or directory
 ```
 ## /var/lib/tomcat 밑에 conf폴더가 없어서 못찾는것 conf 폴더 위치를 링크걸어주고 재배포 
