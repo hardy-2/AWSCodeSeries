@@ -1,4 +1,5 @@
 # AWSCodeSeries
+![](https://lavender-washer-552.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F56f3daad-73b7-4700-8f3d-b5237cf3d2e3%2FUntitled.png?table=block&id=b1af2bdb-8353-4756-be8d-60fadb8f484c&spaceId=3a2995be-80ba-4914-b52f-53419771bb47&width=1800&userId=&cache=v2)
 ## AWS CodeCommit
 1. HTTPS Git credentials (계정에 권한 할당)
 2. CodeCommit에서 repository 생성
